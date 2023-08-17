@@ -1,25 +1,36 @@
 
 /* Your CSS Code here. */
-* {
-            margin: 0px;
-            padding: 0px;
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
-        .nav-1 {
-            width: 100%;
-            color: white;
-            padding: 30px;
-            background-color: skyblue;
-        }
-
-        .nav-2 {
-            font-size: 30px;
-            display: inline;
-            color: white;
+        header,
+        nav,
+        main,
+        section {
+            margin: 20px;
             padding: 20px;
+            border: 1px solid #ccc;
         }
 
-        #img-1 {
-            width: 400px;
-            height: 400px;
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
         }
