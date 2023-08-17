@@ -8,31 +8,33 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<header role="heading">
-        <h1>My Accessible Portfolio</h1>
-    </header>
-    <nav role="navigation">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section role="img">
-            <img src="portfolio-image.jpg" alt="Portfolio Image">
-        </section>
-        <section>
-            <p>This is a brief description of my portfolio.</p>
-        </section>
-        <section role="list">
-            <ul>
-                <li role="listitem">Project 1: Web Accessibility</li>
-                <li role="listitem">Project 2: Responsive Design</li>
-                <li role="listitem">Project 3: User Experience</li>
-            </ul>
-        </section>
+	<body>
+  <header role="heading">
+    <h1 role="heading">My Portfolio</h1>
+  </header>
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem">Home</li>
+      <li role="listitem">About</li>
+      <li role="listitem">Projects</li>
+      <li role="listitem">Contact</li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <img src="profile.jpg" alt="Profile Picture" role="img">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+    </section>
+    <section>
+      <h2>My Projects</h2>
+      <ul role="list">
+        <li role="listitem">Project 1</li>
+        <li role="listitem">Project 2</li>
+        <li role="listitem">Project 3</li>
+      </ul>
+    </section>
+  </main>
     <script type="text/javascript" src="./script.js">
 </script>
 
